@@ -1,0 +1,47 @@
+MI-RUB (domácí úloha "Rectangles")
+
+Zadání
+
+Vytvoøte aplikaci, která spoèítá obsah dvou ètvercù sjednocených do jednoho obrazce.
+
+Oba ètverce se zadávají pomocí souøadnic geometrického støedu a délky hrany (používáme bezrozmìrnou velièinu). Pokud je zadán vstup, který není èíslem, aplikace vypíše „Spatny vstup.“ a okamžitì se ukonèí. Stejným zpùsobem reaguje, když je zadána záporná délka hrany. Nulová délka hrany aplikaci nevadí. Pokud ctverce nemají spoleèný ani jeden bod (napø. když se nedotýkají ani jedním rohem), aplikace na to zareaguje textem „Ctverce se ani nedotykaji.“. Základní chování aplikace asi nejlépe vysvìtlí ukázka chodu. V následujicí ukázce je demonstrováno základní chování aplikace:
+
+Zadejte delku hrany prvniho ctverce: 4
+Zadejte x-ovou souradnici stredu prvniho ctverce: 0
+Zadejte y-ovou souradnici stredu prvniho ctverce: 0
+Zadejte delku hrany druheho ctverce: 2
+Zadejte x-ovou souradnici stredu druheho ctverce: 2
+Zadejte y-ovou souradnici stredu druheho ctverce: 2
+Obsah sjednoceni dvou ctvercu je 19.
+
+---------------------------------------------------
+
+Zadejte delku hrany prvniho ctverce: 4
+Zadejte x-ovou souradnici stredu prvniho ctverce: a
+Spatny vstup.
+
+---------------------------------------------------
+
+Zadejte delku hrany prvniho ctverce: -4
+Spatny vstup.
+
+---------------------------------------------------
+
+Zadejte delku hrany prvniho ctverce: 4.0
+Zadejte x-ovou souradnici stredu prvniho ctverce: 0.000
+Zadejte y-ovou souradnici stredu prvniho ctverce: 0.000e-3
+Zadejte delku hrany druheho ctverce: 2.0e+0
+Zadejte x-ovou souradnici stredu druheho ctverce: -2
+Zadejte y-ovou souradnici stredu druheho ctverce: -2e0
+Obsah sjednoceni dvou ctvercu je 19.
+
+---------------------------------------------------
+
+Zadejte delku hrany prvniho ctverce: 5.23
+Zadejte x-ovou souradnici stredu prvniho ctverce: -10e20
+Zadejte y-ovou souradnici stredu prvniho ctverce: 3e-2 
+Zadejte delku hrany druheho ctverce: 4.345643225
+Zadejte x-ovou souradnici stredu druheho ctverce: +3e100
+Zadejte y-ovou souradnici stredu druheho ctverce: -1
+Ctverce se ani nedotykaji.
+
